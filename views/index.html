@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>We R VR</title>
+
+    <script src="https://cdn.auth0.com/js/lock/10.2/lock.js"></script>
+    <script type="text/javascript" src="static/js/auth0-variables.js"></script>
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- We will use the Babel transpiler so that we can convert our jsx code to js on the fly -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+
+    <!-- Core React libraries which we will be using -->
+    <script src="https://unpkg.com/react@15.3.0/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.3.0/dist/react-dom.js"></script>
+
+    <!-- Our React app code will be placed in the app.jsx file -->
+    <script type="text/babel" src="static/js/app.jsx"></script>
+
+    <!-- We will import bootstrap so that we can build a good looking UI fast -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- This will be the entry point for our React app -->
+<div class="container" id="app">
+</div>
+</body>
+</html>
